@@ -10,7 +10,7 @@ En los archivos de este proyecto existe la siguiente información;
  
 ### `1. Notebooks`
  - `TFM con dataset eAgora.ipynb` ; este notebook contiene el ejercicio de prueba usando un dataset de mala calidad y solo en catalán. Lo hemos añadido como parte del proyecto y para tener en cuenta el tiempo invertido
- - `TFM_FINAL.ipynb` ; este notebook contiene todo el proyecto. Lo exponemos por apartados;
+ - `TFM_FINAL.ipynb` ; **este notebook contiene todo el proyecto**. Lo exponemos por apartados;
     1. *Entrenamiento y rendimiento de modelo*; todos los pasos están detallados para entender el proceso.
     2. *Conexión y predicción de comentarios de la App eAgora*; conectamos directamente con la tabla SQL que almacena los comentarios de los usuarios.
     3. *Aplicación DASH*; generación de una interfaz gráfica para predecir ODS's de manera dinámica.
