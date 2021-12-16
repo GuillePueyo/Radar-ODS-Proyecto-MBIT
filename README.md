@@ -21,6 +21,7 @@ En los archivos de este proyecto existe la siguiente información;
 
 ### `3. Dataset`
  - Se debe informar al lector que el dataset de entrenamiento ha sido creado a mano de manera artificial. Por ello, el predictor está limitado y en varias ocasiones no predecirá nada. Esto es normal ya que la probablidad sería tan baja que el modelo directmanete no lo muestra. Decir también que está en castellano y catalán.
+ - El dataset llamado *español catalan proba.xlsx* es de ejemplo para implementar la última función del notebook. Es como ejemplo nada más.
 
 ### `4. Modelos`
  - Se pueden usar directamente los modelos sin necesidad de ejecutar el notebook entero mediante `joblib.load()`
