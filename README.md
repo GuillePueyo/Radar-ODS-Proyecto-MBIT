@@ -24,3 +24,7 @@ En los archivos de este proyecto existe la siguiente información;
 
 ### `4. Modelos`
  - Se pueden usar directamente los modelos sin necesidad de ejecutar el notebook entero mediante `joblib.load()`
+
+### `5. Dashboard - Power BI`
+ - Se trata de un dashboard a modo de ejemplo usando los datos de nuestro dataset con la inclusión del nombre de algunos ayuntamientos para poder tener análisis por yuntamiento a modo de prueba.
+ - La información está almacenada en S3 y es de dominio público por lo que todo el mundo puede "jugar" con el Dashboard.
