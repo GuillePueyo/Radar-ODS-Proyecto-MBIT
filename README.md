@@ -4,9 +4,10 @@ Se trata de un predictor de Objetivos de Desarrollo Sostenible Mediante la App e
 En los archivos de este proyecto existe la siguiente información;
  - Notebooks de Python
  - Memoria del proyecto
- - Dataset de entrenamiento
+ - Dataset de entrenamiento y prueba
  - Esquema de trabajo y rendimiento de modelos
  - Modelos entrenados con extensión .pkl
+ - Imagen usada parla Demo
  
 ### `1. Notebooks`
  - `TFM con dataset eAgora.ipynb` ; este notebook contiene el ejercicio de prueba usando un dataset de mala calidad y solo en catalán. Lo hemos añadido como parte del proyecto y para tener en cuenta el tiempo invertido
@@ -21,6 +22,14 @@ En los archivos de este proyecto existe la siguiente información;
 
 ### `3. Dataset`
  - Se debe informar al lector que el dataset de entrenamiento ha sido creado a mano de manera artificial. Por ello, el predictor está limitado y en varias ocasiones no predecirá nada. Esto es normal ya que la probablidad sería tan baja que el modelo directmanete no lo muestra. Decir también que está en castellano y catalán.
+ - El dataset llamado *contenidos y etiquetas_proba.xlsx* es de ejemplo para implementar la última función del notebook. Es como ejemplo nada más.
 
 ### `4. Modelos`
  - Se pueden usar directamente los modelos sin necesidad de ejecutar el notebook entero mediante `joblib.load()`
+
+### `5. Dashboard - Power BI`
+ - Se trata de un dashboard a modo de ejemplo usando los datos de nuestro dataset con la inclusión del nombre de algunos ayuntamientos para poder tener análisis por yuntamiento a modo de prueba.
+ - La información está almacenada en S3 y es de dominio público por lo que todo el mundo puede "jugar" con el Dashboard.
+
+### `6. Imagen (flow.png)`
+- Imagen usada en el Notebook para tener una idea de cómo funciona el ciclo del dato desde que entra en la aplicación de eAgora
